@@ -199,6 +199,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     /* border-radius: 3px; */
     position: relative;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+.chat-window-wrapper .user-details-wrapper:hover {
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.04);
 }
 .chat-window-wrapper .user-details-wrapper > .user-profile {
     display: inline-block;
@@ -246,6 +250,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     margin: 0 auto;
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
     padding-top: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer
+}
+.icon-circle:hover{
+    transform: translatey(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
 }
 .small-title{
     padding: 18px 0 0 20px;
